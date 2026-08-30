@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Anoushka Sai Chinni through an accessible contact form.">
+  <meta name="author" content="Anoushka Sai Chinni">
+  <title>Contact | Anoushka Sai Chinni</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Anoushka Sai Chinni home">Anoushka</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro" aria-labelledby="contact-title">
+      <p class="eyebrow">Get in touch</p>
+      <h1 id="contact-title">Contact Me</h1>
+      <p>Have a question, project idea or internship opportunity? Send a message using the accessible form below.</p>
+    </section>
+
+    <section class="section contact-layout" aria-labelledby="form-title">
+      <div class="card">
+        <h2 id="form-title">Send a message</h2>
+
+        <form id="contact-form" action="#" method="post" aria-describedby="form-help">
+          <p id="form-help" class="form-help">All fields marked with <span aria-hidden="true">*</span> are required.</p>
+
+          <div class="form-group">
+            <label for="name">Full Name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-required="true">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-required="true">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+          </div>
+
+          <button class="button primary" type="submit">Send Message</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <aside class="card" aria-labelledby="contact-note-title">
+        <h2 id="contact-note-title">Accessibility features</h2>
+        <ul>
+          <li>Keyboard-friendly form controls</li>
+          <li>Visible labels for every field</li>
+          <li>Required-field support</li>
+          <li>Screen-reader status message</li>
+          <li>Clear focus indicators</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Anoushka Sai Chinni. Built with semantic HTML5.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
