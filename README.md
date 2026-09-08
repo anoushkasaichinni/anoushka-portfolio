@@ -1,40 +1,22 @@
-# Anoushka Sai Chinni — Accessible Portfolio
+# Anoushka Sai Chinni — Task 2: Advanced CSS3 & Responsive Architecture
 
-A multi-page personal portfolio created for the **HTML5 Semantic Structure & Accessibility** internship assignment.
+This version upgrades the semantic portfolio with modern CSS3 and responsive architecture.
+
+## Task 2 requirements completed
+- CSS Grid for hero, cards, two-column sections and contact layout.
+- Flexbox for navigation, buttons and responsive controls.
+- Mobile-first responsive media queries at 700px and 950px.
+- CSS custom properties for theme colors, surfaces, borders and shadows.
+- Light/dark mode toggle with localStorage persistence.
+- Responsive mobile navigation with accessible ARIA state.
+- Modern CSS including gradients, backdrop-filter, color-mix, transitions and clamp().
+- Accessibility features from Task 1 retained.
 
 ## Pages
-- `index.html` — Home
-- `about.html` — About
-- `projects.html` — Projects
-- `contact.html` — Accessible contact form
-
-## Accessibility features
-- Semantic HTML5 elements
-- Skip-to-content link
-- Keyboard-friendly navigation
-- Visible focus indicators
-- Form labels and required-field support
-- Appropriate ARIA attributes
-- Live status message for the contact form
-- Responsive layout
-
-## SEO
-Each page includes a unique title, description, viewport configuration and author metadata.
+Home, About, Projects and Contact.
 
 ## Run locally
-Open `index.html` in a browser.
+Open index.html in a browser.
 
-## GitHub submission
-Create a GitHub repository, upload all files, and use the repository URL as the internship submission link. GitHub Pages can also be used to publish the website.
-
-
-## Assignment checklist
-- Multi-page portfolio: Home, About, Projects, Contact
-- Semantic HTML5 structure
-- Skip-to-content navigation
-- Keyboard-accessible controls and visible focus
-- Appropriate ARIA attributes
-- Accessible, labelled contact form
-- SEO-friendly title and description metadata
-- Responsive layout
-- Reduced-motion support
+## GitHub Pages
+Replace the files in the existing anoushka-portfolio repository and keep GitHub Pages on the main branch and root folder.
